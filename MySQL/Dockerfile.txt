@@ -1,0 +1,8 @@
+FROM mysql:8.0
+
+ENV MYSQL_DATABASE=tarefas
+ENV MYSQL_USER=tarefasuser
+ENV MYSQL_PASSWORD=strongpassword
+ENV MYSQL_ROOT_PASSWORD=rootpassword
+
+EXPOSE 3306
